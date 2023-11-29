@@ -91,4 +91,112 @@ create table coaches(coach_n varchar(10) primary key,manufacturer varchar(50),la
 create table active_coaches(coach_n varchar(10) primary key,train_n int,foreign key(train_n) references trains(train_n));
 
 
+insert statements:-
+
+INSERT INTO active_coaches
+(`coach_n`,
+`train_n`)
+VALUES
+
+INSERT INTO coaches
+(`coach_n`,
+`manufacturer`,
+`last_maintained`,
+`mileage`) VALUES
+
+
+INSERT INTo routes
+(`route_n`,
+`route_name`,
+`time_taken`,
+`total_dist_km`,
+`start_stn`,
+`start_time`,
+`end_stn`,
+`end_time`)
+VALUES
+
+INSERT INTO maintainance
+(`maintain_n`,
+`maintain_type`,
+`maintain_date`,
+`coach_n`)
+VALUES
+
+
+INSERT INTO seats
+(`seat_no`,
+`type`)
+VALUES
+
+
+INSERT INTO staff_schedule
+(`route_n`,
+`train_n`,
+`staff_n`,
+`remark`,
+`date`,
+`time`,
+`accomodation`)
+VALUES
+
+
+
+INSERT INTO staffs
+(`staff_n`,
+`staff_name`,
+`contact_n`,
+`residence_city`)
+VALUES
+
+
+
+INSERT INTO standby_coaches
+(`coach_n`,
+`Date`)
+VALUES
+
+
+
+INSERT INTO stations
+(`station_code`,
+`station_name`,
+`no_of_platform`,
+`state`)
+VALUES
+
+
+
+INSERT INTO stations
+(`station_code`,
+`station_name`,
+`no_of_platform`,
+`state`)
+VALUES
+
+
+
+INSERT INTO stations
+(`station_code`,
+`station_name`,
+`no_of_platform`,
+`state`)
+VALUES
+
+
+INSERT INTO stations
+(`station_code`,
+`station_name`,
+`no_of_platform`,
+`state`)
+VALUES
+
+
+INSERT INTO stations
+(`station_code`,
+`station_name`,
+`no_of_platform`,
+`state`)
+VALUES
+
 
