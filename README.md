@@ -8,10 +8,6 @@ DHARMESH JAIN:ER DIAGRAM,RELATIONAL SCHEMA, INSERT DATA INTO TABLES
 
 
 ASHWIN CHOUDHARY:COLLECTION OF DATA
-
-
-
-
 relations:
 
 stations(Station_code,Station_name,No_of_Platform,State)
